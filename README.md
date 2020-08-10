@@ -1,5 +1,7 @@
 # README
 
+Github would not allow me to upload all my files at one I wasn't aware of this at the time, I assumed like azure dev ops it would allow me to do it all at once for this I apologize I'm actually not sure how to guarantee all my files will be in tact as github doesn't specify which files get left behind. As such my work can also be found at the following dropbox link: https://www.dropbox.com/sh/xr2gcltb32tg7sg/AABpVOSsxUvFOkYce-DptgUia?dl=0
+
 Contained is a general read me describing not only the technologies used in this project but, my experiences with them as well as things I'd have done differently and things I struggled with.
 
 
