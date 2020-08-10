@@ -1,0 +1,27 @@
+class Api::V1::TextMessagesController < ApplicationController
+  def index
+    textmessage = TextMessage.all.order(timeSramp: : desc)
+    render json: textmessage
+  end
+
+  def create
+    textmessage = TextMessage.create!(textmessage_params)
+    if textmessage
+      render json: textmessage
+    else
+      render json: textmessage.errors
+    end
+  end
+
+  def show
+  end
+
+  def destroy
+  end
+
+  private
+
+  def textmessage_params
+    params.permit(:name, :phoneNumber, :message, :timestamp)
+  end
+end
